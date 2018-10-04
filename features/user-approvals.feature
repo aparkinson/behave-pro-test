@@ -48,6 +48,7 @@ Feature: User Approvals
     When Nick creates a question on the User Story
     Then Nick's approval for the User Story should be removed
     And Nick's open questions are resolved automatically
+    And Nick's open questions are resolved automatically
 
   @ORPHAN
   Scenario: Create a new Question on a User Story
