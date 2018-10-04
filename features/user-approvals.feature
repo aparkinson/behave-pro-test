@@ -44,11 +44,7 @@ Feature: User Approvals
 
   @ORPHAN
   Scenario: User creates a Question on a User Story they have already approved
-    Given a User Story that Nick has already marked as ready
-    When Nick creates a question on the User Story
-    Then Nick's approval for the User Story should be removed
-    And Nick's open questions are resolved automatically
-    And Nick's open questions are resolved automatically
+    null
 
   @ORPHAN
   Scenario: Create a new Question on a User Story
