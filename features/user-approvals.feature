@@ -56,10 +56,3 @@ Feature: User Approvals
     Given a User Story that Nick has a open Question on
     When Nick marks the User Story as Ready
     Then Nick's open questions are resolved automatically
-
-  @ORPHAN
-  Scenario: Copy of Create a new Question on a User Story
-    Given a open User Story
-    When Nick creates a question
-    Then Nick's question is visible to all other users
-    And Nick's questions is created as a comment on the User Story
