@@ -1,5 +1,5 @@
 Feature: Issue handler
 
-  @ORPHAN
+  @GIT-1 @OPEN
   Scenario: Test
     Given a step
