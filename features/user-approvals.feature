@@ -1,6 +1,6 @@
 Feature: User Approvals
 
-  @ORPHAN
+  @GIT-1
   Scenario: User should not be able to ready a story with unresolved questions
     Given an unapproved story
     When a user with unresolved questions tries to approve
