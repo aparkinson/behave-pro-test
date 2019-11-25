@@ -7,7 +7,7 @@ Feature: User Approvals
     Then the story should not be approved
     And a message should appear
 
-  @ORPHAN
+  @GT-1
   Scenario: User approves a user story when there are unresolved questions
     Given a User Story has unresolved questions created by Nick
     When Nick tries to approve the User Story
