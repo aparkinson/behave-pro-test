@@ -15,7 +15,7 @@ Feature: User Approvals
     When Nick continues with the Approval
     Then Nick's open questions should be resolved
 
-  @ORPHAN
+  @GT-1
   Scenario: Create a new Question on a User Story
     Given a open User Story
     When Nick creates a question
