@@ -22,7 +22,7 @@ Feature: User Approvals
     Then Nick's question is visible to all other users
     And Nick's questions is created as a comment on the User Story
 
-  @ORPHAN
+  @GT-1
   Scenario: Create a new Question on a User Story with resolved Questions
     Given a User Story with resolved Questions
     When Nick creates a question
