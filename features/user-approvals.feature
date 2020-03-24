@@ -1,5 +1,8 @@
 Feature: User Approvals
 
+  Background:
+    Given a step
+
   @ORPHAN @GT-1 @GIT-3 @OPEN
   Scenario: User should not be able to ready a story with unresolved questions
     Given an unapproved story
