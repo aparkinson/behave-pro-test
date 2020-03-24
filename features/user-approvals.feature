@@ -1,13 +1,13 @@
 Feature: User Approvals
 
-  @GT-1
+  @ORPHAN @GT-1 @GIT-3 @OPEN
   Scenario: User should not be able to ready a story with unresolved questions
     Given an unapproved story
     When a user with unresolved questions tries to approve
     Then the story should not be approved
     And a message should appear
 
-  @GT-1
+  @ORPHAN @GT-1
   Scenario: User approves a user story when there are unresolved questions
     Given a User Story has unresolved questions created by Nick
     When Nick tries to approve the User Story
@@ -15,14 +15,14 @@ Feature: User Approvals
     When Nick continues with the Approval
     Then Nick's open questions should be resolved
 
-  @GT-1
+  @ORPHAN @GT-1
   Scenario: Create a new Question on a User Story
     Given a open User Story
     When Nick creates a question
     Then Nick's question is visible to all other users
     And Nick's questions is created as a comment on the User Story
 
-  @GT-1
+  @ORPHAN @GT-1
   Scenario: Create a new Question on a User Story with resolved Questions
     Given a User Story with resolved Questions
     When Nick creates a question
